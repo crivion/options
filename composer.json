@@ -1,0 +1,28 @@
+{
+    "name": "Crivion/Options",
+    "description": "A way to get_option($option_name, $default = null) and set_option($option_name, $option_value) similar to wordpress for Laravel.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Crivion",
+            "email": "crivion@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Crivion\\Options\\": "src/"
+        }
+    },
+     "extra": {
+        "laravel": {
+            "providers": [
+                "Crivion\\Options\\OptionsServiceProvider"
+            ],
+             "aliases": {
+                "Options": "Crivion\\Options\\Facade"
+            }
+        }
+    }
+}
