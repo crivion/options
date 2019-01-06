@@ -1,5 +1,5 @@
 {
-    "name": "Crivion/Options",
+    "name": "crivion/options",
     "description": "A way to get_option($option_name, $default = null) and set_option($option_name, $option_value) similar to wordpress for Laravel.",
     "type": "library",
     "license": "MIT",
