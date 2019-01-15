@@ -8,7 +8,7 @@ This useful Laravel Package allows you to have **get_option()** & **update_optio
 `Options::get_option( $option_name, $option_value = null )`
 
 ### Set/Update an option
-`Options::get_option( $option_name, $option_value )`
+`Options::update_option( $option_name, $option_value )`
 
 ### Delete an option
 `Options::delete_option( $option_name )`
