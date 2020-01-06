@@ -12,6 +12,9 @@ class Options extends Model
     // set table name
     public $table = 'options_table';
 
+    // fillable
+    public $fillable = [ 'option_name', 'option_value' ];
+
     // get option
     public static function get_option( $option_name, $option_value = null ) {
 		$return = self::where('option_name', $option_name)->pluck('option_value')->first();
